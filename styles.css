@@ -1,0 +1,9 @@
+body {
+  font-family: 'Lora', serif;
+}
+
+.center {
+  text-align: center;
+  width: 70%;
+  margin: auto
+}
