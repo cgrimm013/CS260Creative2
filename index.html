@@ -15,7 +15,9 @@
 
   <form>
     <label>Enter the ingredients in your fridge to find a recipe right for you!</label>
-    <br />
+    <p id="disclaimer">
+      (The API is a little slow, as we had to overcome the CORS problem)
+    </p>
     Add an ingredient
     <button id="addIngredient">+</button>
     Remove an ingredient
@@ -25,6 +27,12 @@
     <div id="additional"></div>
     <input id="recipeSearch" type="submit" value="Search"/>
   </form>
+
+  <div id="results" class="flex-container"></div>
+
+  <footer>
+    <a href="https://github.com/cgrimm013/CS260Creative2">Github Repo</a>
+  </footer>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script text="type/javascript" src="/script.js"></script>

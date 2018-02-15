@@ -1,9 +1,59 @@
 body {
   font-family: 'Lora', serif;
+  margin-bottom: 50px !important;
 }
 
 .center {
   text-align: center;
   width: 70%;
   margin: auto
+}
+
+input{
+  display: block;
+  margin: auto;
+  margin-top: 8px
+}
+
+footer {
+  background-color: #efefef;
+  text-align: center;
+  padding: 5px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.flex-item{
+  width: 50%;
+}
+
+.recipeImage{
+  height: 300px;
+  width: auto;
+  max-width: 95%;
+}
+
+#disclaimer{
+  font-size: 12px;
+  color: red;
+}
+
+@media screen and (max-width: 760px) {
+  .center {
+    width: 100%
+  }
+  .flex-item{
+    width: 100%;
+  }
+  input {
+    border: 1px solid grey;
+  }
 }
